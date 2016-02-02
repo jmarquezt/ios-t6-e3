@@ -12,6 +12,7 @@
 		E08B0BEE1C60D22000A6F9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08B0BEC1C60D22000A6F9E0 /* Main.storyboard */; };
 		E08B0BF01C60D22000A6F9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08B0BEF1C60D22000A6F9E0 /* Assets.xcassets */; };
 		E08B0BF31C60D22000A6F9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08B0BF11C60D22000A6F9E0 /* LaunchScreen.storyboard */; };
+		E08B0BFB1C60DA1600A6F9E0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08B0BFA1C60DA1600A6F9E0 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E08B0BEF1C60D22000A6F9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08B0BF21C60D22000A6F9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E08B0BF41C60D22000A6F9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08B0BFA1C60DA1600A6F9E0 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E08B0BE81C60D22000A6F9E0 /* AppDelegate.swift */,
 				E08B0BEA1C60D22000A6F9E0 /* ViewController.swift */,
+				E08B0BFA1C60DA1600A6F9E0 /* WebViewController.swift */,
 				E08B0BEC1C60D22000A6F9E0 /* Main.storyboard */,
 				E08B0BEF1C60D22000A6F9E0 /* Assets.xcassets */,
 				E08B0BF11C60D22000A6F9E0 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E08B0BEB1C60D22000A6F9E0 /* ViewController.swift in Sources */,
+				E08B0BFB1C60DA1600A6F9E0 /* WebViewController.swift in Sources */,
 				E08B0BE91C60D22000A6F9E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
